@@ -30,4 +30,4 @@ def LongestWord(sentence):
 	return sentence
 
 
-print LongestWord(raw_input("Input a string, add punctuation for better test, no numbers, please. > "))
+print LongestWord(raw_input("Input a string, add punctuation for better test. > "))
