@@ -26,7 +26,19 @@ for num in range(1,101):
 """
 #other
 """
-
+for num in range(2,max_num):
+	denominator = 2
+	counter = 0
+	while denominator < num:
+		if num % denominator == 0:
+			counter = 1
+			denominator = denominator + 1
+		else:
+			denominator = denominator + 1
+	if counter == 0:
+		print num
+	else:
+		counter = 0
 
 
 
